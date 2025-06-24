@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary mb-0" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5" href="#">
+        <img class="brand" src="Images/Name1.png" alt="Utkers" height="80px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse pages" id="navbarScroll">
+        <ul class="navbar-nav mx-auto ms-8 my-2 my-lg-0 navbar-nav-scroll gap-5" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link fs-5" aria-current="page" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="#">Achievements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="#contact">Contact Me</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <section class="container-md mb-0 About">
+    <div class="row align-items-center">
+
+      <!-- Left Side - Text Content -->
+      <div class="col-lg-6 text-center text-lg-start">
+        <h1>Hi, I'm <span class="Name" style="color: #a855f7 ;">Utkers Kumar Jain</span> 👋</h1>
+        <p class="info">
+          A passionate Full Stack Developer 🚀 experienced in building Web & Mobile apps using JavaScript, React.js,
+          Node.js, and other cool technologies.
+        </p>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons mt-3">
+          <a href="https://github.com/UtkersJain" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/utkers-kumar-jain-05abb7287/" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+          <a href="mailto:utkersj@example.com" target="_blank" class="mx-2"><i class="fab fa-google"></i></a>
+        </div>
+
+        <!--Button -->
+        <div class="d-grid d-lg-flex justify-content-lg-start justify-content-center mb-3 gap-2 resume">
+          <div class="resume-btn-container">
+            <a href="resume.pdf" class="btn btn-custom" target="_blank" rel="noopener noreferrer">
+              VIEW RESUME
+            </a>
+          </div>
+          <div class="resume-btn-container">
+            <a href="resume.pdf" class="btn btn-custom" download>
+              DOWNLOAD RESUME
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right Side - Profile Image -->
+      <div class="col-lg-6 text-center photoUtkers">
+        <img src="Images/photo.jpeg" alt="Utkers" class="profile-img">
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container-md mt-0">
+    <div class="proficiency-container" id="skills">
+      <!-- Illustration (Moved to Left) -->
+      <div class="illustration">
+        <img src="Images/Proficiency.png" alt="Illustration"> <!-- Replace with your image -->
+      </div>
+
+      <!-- Proficiency Text & Progress Bars (Moved to Right) -->
+      <div class="proficiency-text">
+        <h2>Proficiency</h2>
+        <p class="mt-4">Frontend/Design</p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+
+        <p class="mt-3">Backend</p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+
+        <p class="mt-3">Programming</p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <h2 id="project" class="project">Projects</h2>
+  <div class="projects">
+    <div class="spotify work">
+      <div class="photo">
+        <img src="Images/Spotify.png" alt="Spotify">
+      </div>
+      <div class="desc">
+        <div class="title">
+          <h3><u>Spotify Clone</u></h3>
+        </div>
+        <div class="info">
+          <ul>🚀Features
+            <li>Responsive UI with Bootstrap</li>
+            <li>Navbar with search functionality</li>
+            <li>Music player interface</li>
+            <li>Playlist and album sections</li>
+          </ul>
+          <ul>🛠️Technologies Used
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="airbnb work">
+
+      <div class="desc">
+        <div class="title">
+          <h3><u>Airbnb Clone</u></h3>
+        </div>
+        <div class="info">
+          <ul>🚀Features
+            <li>Modular backend with MongoDB & Mongoose.</li>
+            <li>Full CRUD for property listings.</li>
+            <li>Routes for list, view, add, edit, delete</li>
+            <li>Secure & efficient database handling.</li>
+          </ul>
+          <ul>🛠️Technologies Used
+            <li>Backend: Node.js, Express.js</li>
+            <li>Database: MongoDB, Mongoose</li>
+            <li>Other Tools: dotenv, nodemon</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="Images/airbnb.png" alt="Spotify">
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="spotify work">
+      <div class="photo">
+        <img src="Images/SimonGame.png" alt="Spotify">
+      </div>
+      <div class="desc">
+        <div class="title">
+          <h3><u>Simon Game</u></h3>
+        </div>
+        <div class="info">
+          <ul>🚀Features
+            <li>Randomized color sequences</li>
+            <li>User interaction with color buttons</li>
+            <li>Increasing difficulty as the game progresses</li>
+            <li>Game over alert on incorrect sequences</li>
+          </ul>
+          <ul>🛠️Technologies Used
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java Script</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="airbnb work">
+
+  </div>
+
+  <div class="game work">
+
+  </div>
+  </div>
+
+  <section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contact Me</h2>
+
+    <!-- Bootstrap Alert (Hidden by default) -->
+    <div id="form-alert" class="alert d-none" role="alert"></div>
+
+    <form id="contact-form" class="mx-auto" style="max-width: 500px;">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Send</button>
+    </form>
+  </section>
+
+
+  <footer class="bg-dark text-center text-white py-3">
+    <p>&copy; 2025 Utkers Kumar Jain | All Rights Reserved</p>
+  </footer>
+
+
+
+
+
+  <script src="app.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
